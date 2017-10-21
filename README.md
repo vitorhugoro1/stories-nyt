@@ -1,4 +1,4 @@
-# currency
+# Top Stories
 
 > A Vue.js project
 
