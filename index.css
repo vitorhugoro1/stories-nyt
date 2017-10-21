@@ -1,0 +1,7 @@
+.special .jumbotron {
+    height: 100vh;
+}
+
+.special .jumbotron:first-of-type {
+    height: calc(100vh - 40px);
+}
