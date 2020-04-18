@@ -32,7 +32,7 @@ export default {
             this.section = this.$route.params.section
             this.stories = []
 
-            fetch(`http://api.nytimes.com/svc/topstories/v2/${this.section}.json?api-key=fe593fe8976544e38796d28d30fcf601`)
+            fetch(`https://api.nytimes.com/svc/topstories/v2/${this.section}.json?api-key=fe593fe8976544e38796d28d30fcf601`)
                 .then(response => response.json())
                 .then(json => this.stories = json.results)
         },
